@@ -735,7 +735,7 @@ namespace EasyMotion2D
                 spriteRenderer.commitToSceneManager = false;
         }
 
-        void Update()
+        public void Update()
         {
             if (spriteRenderer.isApply)
             {
